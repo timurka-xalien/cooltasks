@@ -8,7 +8,9 @@ namespace CoolTasks
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new HandleErrorAttribute());
+            // Remove ASP.NET MVC Error filter to use Global.asax error handler 
+            // for both ASP.NET and ASP.NET MVC errors
+            // filters.Add(new HandleErrorAttribute());
             filters.Add(new LogRequestFilter());
         }
     }

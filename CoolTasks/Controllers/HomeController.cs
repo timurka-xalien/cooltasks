@@ -11,6 +11,7 @@ namespace CoolTasks.Controllers
     {
         public HomeController()
         {
+            throw new Exception("d");
         }
 
         public ActionResult Index()
