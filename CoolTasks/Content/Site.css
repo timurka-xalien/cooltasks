@@ -11,9 +11,21 @@ body {
 }
 
 .navbar-motto {
-    position: absolute;
-    bottom: -15px;
-    left: 3px;
     color: white;
-    font-size:10px;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+}
+
+.navbar-motto-wrapper {
+    width: 265px;
+}
+
+@media (min-width: 1400px) {
+    .navbar-motto-wrapper {
+        margin-left: -50px;
+    }
+}
+
+.motto-page-center {
 }

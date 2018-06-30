@@ -25,6 +25,10 @@
 	margin-top: 32px;
 }
 
+.navbar-right {
+    margin-left: 14px;
+}
+
 .nav > li > a {
 	padding: 10px 12px;
 }
@@ -40,6 +44,7 @@
 }
 
 a.navbar-brand {
+    white-space: nowrap;
     font-size: 42px;
     font-weight: bold;
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
@@ -51,7 +56,7 @@ a.navbar-brand {
     }
 }
 
-@media (min-width: 768px) and (max-width: 885px) {
+@media (min-width: 768px) and (max-width: 915px) {
     .navbar-collapse.collapse {
         display: none !important;
     }
@@ -66,6 +71,12 @@ a.navbar-brand {
 
     .navbar-header {
         float: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand {
+        margin-left: 0;
     }
 }
 
@@ -98,8 +109,8 @@ a.navbar-brand {
         padding: 15px 10px 12px 12px;
     }
 }
+    
     */
-
 /* Set width on the form input elements since they're 100% wide by default */
 /*input,
 select,
