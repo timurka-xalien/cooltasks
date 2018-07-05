@@ -77,6 +77,11 @@ a.navbar-brand {
 @media (min-width: 768px) {
     .navbar > .container .navbar-brand {
         margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        display: block;
+        float: none;
+        text-align: center;
     }
 }
 
